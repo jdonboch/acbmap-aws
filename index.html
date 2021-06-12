@@ -13,12 +13,20 @@
     }
     #map {
         height: 100vh;
+        z-index: 1;
+    }
+    .top_right {
+        position: absolute;
+        right: 0px;
+        top: 8px;
+        z-index: 900;
     }
  </style>
  </head>
  <body>
  <!-- map container -->
  <div id="map" />
+ <span class="top_right"><a href="https://linktr.ee/jdonboch"><img src="humbleg.png"/></a></span>
  <!-- JavaScript dependencies -->
  <script src="https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js"></script>
  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.784.0.min.js"></script>
