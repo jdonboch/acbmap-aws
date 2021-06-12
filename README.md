@@ -30,6 +30,12 @@ $ pip install -r requirements.txt
 
 Open the `geocode.py` file and update the `INDEX_NAME` and `INPUT_FILE_NAME` with the values of your input file (newline separated list of locations) and the AWS Location Services Place Index name that you created as part of the Prerequisites.
 
+Since the inputs are hardcoded at the top of the script, simply run the script with python and it will generate the `data.geojson` needed by the map page.
+
+```
+$ python geocode.py
+```
+
 ## Static Map
 
 Note the Cognito Identity Pool ID and the AWS Location Service Map name that you created as part of the Prerequisites. Open the `index.html` and find the lines contains `<REPLACE ` and update the value of the two fields with the Cognito Identity Pool ID and the map name.
