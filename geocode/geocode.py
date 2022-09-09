@@ -3,7 +3,7 @@ import json
 
 ## UPDATE THESE VALES WITH VALUES FROM YOUR ENVIRONMENT
 INDEX_NAME = "acb-index"
-INPUT_FILE_NAME = "acb_country_list.csv"
+INPUT_FILE_NAME = "Countries.csv"
 ##########
 
 OUTPUT_FILE_NAME = "../data.geojson"
