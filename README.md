@@ -46,6 +46,6 @@ Assuming you have run the geocoding script (i.e. the `data.geojson` file is pres
 
 ## Hosted version
 
-This static map is hosted at the following location and currently displays the country locations of the 1200+ AWS Community Builders as of June 2021.
+This static map is hosted at the following location and currently displays the country locations of the 2300+ AWS Community Builders as of September 2022.
 
 http://acbmap.humbleg.com/aws/
